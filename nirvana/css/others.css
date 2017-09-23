@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.full-container {
+	margin: 0 10%;
+}
+
+.script-container {
+	display: none;
+}
+
+.navbar, .navbar-brand, .nav-link {
+	background-color: #034ea2 !important;
+	color: white !important;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.fixed-footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: gray;
+	text-align: center;
+}
