@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.eliasreis.devday.devday.LoginVendorFragment">
+    tools:context="com.eliasreis.devday.devday.LoginConsumerFrangment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,6 +11,23 @@
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:padding="12dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white">
+
+            <EditText
+                android:id="@+id/edit_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint="Nome"
+                android:textColor="@android:color/white" />
+
+        </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/text_input_email"
@@ -22,8 +39,7 @@
                 android:id="@+id/edit_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:hint="E-mail"
+                android:hint="e-mail"
                 android:textColor="@android:color/white" />
 
         </android.support.design.widget.TextInputLayout>
